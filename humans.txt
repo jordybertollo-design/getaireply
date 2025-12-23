@@ -1,0 +1,25 @@
+/* TEAM */
+Developer & Founder: Jordy Bertollo
+Contact: info@getaireply.eu
+Location: Paris, France
+
+/* COMPANY */
+Name: 777 INDUSTRIES
+Type: SAS (Simplified Joint Stock Company)
+RCS Paris: 984 934 893
+Founded: 2024
+
+/* SITE */
+Last update: 2024/12/23
+Language: French
+Doctype: HTML5
+IDE: Claude AI
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Vanilla JS, Custom CSS
+Software: Mistral AI (European)
+
+/* THANKS */
+Anthropic - For Claude AI assistance
+Mistral AI - For European AI technology
+Vercel - For hosting
+Stripe - For payments

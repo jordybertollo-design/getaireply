@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Politique de Confidentialité — GetAIReply | RGPD</title>
+    <meta name="description" content="Politique de confidentialité RGPD de GetAIReply. Découvrez comment nous protégeons vos données personnelles. IA 100% européenne, données stockées en Europe.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://getaireply.eu/confidentialite.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Politique de Confidentialité — GetAIReply">
+    <meta property="og:description" content="Politique de confidentialité RGPD de GetAIReply. Vos données restent en Europe.">
+    <meta property="og:url" content="https://getaireply.eu/confidentialite.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a25;
+            --accent-primary: #6366f1;
+            --accent-secondary: #8b5cf6;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 20px 0;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .logo-tld {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .logo-tld {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .logo-icon-placeholder {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            background: var(--gradient-primary);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(99, 102, 241, 0.4);
+        }
+
+        /* Content */
+        .legal-content {
+            padding: 140px 0 80px;
+        }
+
+        .legal-header {
+            margin-bottom: 50px;
+        }
+
+        .legal-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .legal-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+        }
+
+        .legal-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legal-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 20px 0 10px;
+            color: var(--text-primary);
+        }
+
+        .legal-section p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .legal-section ul {
+            color: var(--text-secondary);
+            margin-left: 24px;
+            margin-bottom: 12px;
+        }
+
+        .legal-section li {
+            margin-bottom: 8px;
+        }
+
+        .legal-section a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        .legal-section a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+
+        .info-box p {
+            margin-bottom: 8px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+
+        .highlight-box h4 {
+            color: var(--accent-primary);
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--bg-card);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        td {
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 16px;
+        }
+
+        footer a:hover {
+            color: var(--accent-primary);
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 640px) {
+            .legal-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content {
+                padding: 120px 0 60px;
+            }
+
+            nav .btn {
+                display: none;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                GetAIReply
+            </a>
+            <a href="index.html" class="btn">Retour à l'accueil</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="legal-content">
+        <div class="container">
+            <div class="legal-header">
+                <h1>Politique de Confidentialité</h1>
+                <p>Dernière mise à jour : Décembre 2024</p>
+            </div>
+
+            <div class="highlight-box">
+                <h4>🔒 Notre engagement</h4>
+                <p>Chez GetAIReply, nous prenons la protection de vos données très au sérieux. En tant qu'entreprise européenne, nous sommes entièrement conformes au RGPD et vos données ne quittent jamais l'Europe.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>1. Responsable du traitement</h2>
+                <div class="info-box">
+                    <p><strong>Société :</strong> 777 INDUSTRIES</p>
+                    <p><strong>RCS Paris :</strong> 984 934 893</p>
+                    <p><strong>Adresse :</strong> 10 rue de Penthièvre, 75008 Paris</p>
+                    <p><strong>Email DPO :</strong> <a href="mailto:privacy@getaireply.eu">privacy@getaireply.eu</a></p>
+                </div>
+            </div>
+
+            <div class="legal-section">
+                <h2>2. Données collectées</h2>
+                <p>Nous collectons uniquement les données nécessaires au fonctionnement du service :</p>
+                
+                <h3>2.1 Données de compte</h3>
+                <ul>
+                    <li>Adresse email (pour l'authentification)</li>
+                    <li>Nom de l'établissement</li>
+                    <li>Secteur d'activité</li>
+                    <li>Préférences de ton (professionnel, chaleureux, etc.)</li>
+                </ul>
+
+                <h3>2.2 Données d'utilisation</h3>
+                <ul>
+                    <li>Avis clients que vous soumettez pour génération de réponses</li>
+                    <li>Réponses générées (historique)</li>
+                    <li>Statistiques d'utilisation anonymisées</li>
+                </ul>
+
+                <h3>2.3 Données techniques</h3>
+                <ul>
+                    <li>Adresse IP (anonymisée)</li>
+                    <li>Type de navigateur</li>
+                    <li>Pages visitées</li>
+                </ul>
+            </div>
+
+            <div class="legal-section">
+                <h2>3. Finalités du traitement</h2>
+                <table>
+                    <tr>
+                        <th>Donnée</th>
+                        <th>Finalité</th>
+                        <th>Base légale</th>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>Authentification, notifications</td>
+                        <td>Exécution du contrat</td>
+                    </tr>
+                    <tr>
+                        <td>Infos établissement</td>
+                        <td>Personnalisation des réponses IA</td>
+                        <td>Exécution du contrat</td>
+                    </tr>
+                    <tr>
+                        <td>Avis soumis</td>
+                        <td>Génération de réponses</td>
+                        <td>Exécution du contrat</td>
+                    </tr>
+                    <tr>
+                        <td>Données techniques</td>
+                        <td>Sécurité, amélioration du service</td>
+                        <td>Intérêt légitime</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="legal-section">
+                <h2>4. Stockage et sécurité des données</h2>
+                
+                <div class="highlight-box">
+                    <h4>🇪🇺 Données 100% européennes</h4>
+                    <p>Toutes vos données sont stockées sur des serveurs situés dans l'Union Européenne. Nous utilisons l'IA Mistral, une technologie développée en France.</p>
+                </div>
+
+                <h3>4.1 Mesures de sécurité</h3>
+                <ul>
+                    <li>Chiffrement TLS/SSL pour toutes les communications</li>
+                    <li>Chiffrement des données au repos (AES-256)</li>
+                    <li>Authentification sécurisée (magic links)</li>
+                    <li>Accès restreint aux données (principe du moindre privilège)</li>
+                    <li>Audits de sécurité réguliers</li>
+                </ul>
+
+                <h3>4.2 Durée de conservation</h3>
+                <ul>
+                    <li><strong>Données de compte :</strong> Jusqu'à suppression du compte + 1 an</li>
+                    <li><strong>Historique des réponses :</strong> 12 mois (ou jusqu'à suppression manuelle)</li>
+                    <li><strong>Logs techniques :</strong> 90 jours</li>
+                    <li><strong>Données de facturation :</strong> 10 ans (obligation légale)</li>
+                </ul>
+            </div>
+
+            <div class="legal-section">
+                <h2>5. Partage des données</h2>
+                <p>Nous ne vendons jamais vos données. Nous partageons vos données uniquement avec :</p>
+                <ul>
+                    <li><strong>Mistral AI :</strong> Pour la génération des réponses (données anonymisées, serveurs en Europe)</li>
+                    <li><strong>Stripe :</strong> Pour le traitement des paiements (certifié PCI-DSS)</li>
+                    <li><strong>Supabase :</strong> Pour l'hébergement de la base de données (serveurs EU)</li>
+                </ul>
+                <p>Aucun transfert de données hors de l'Union Européenne n'est effectué.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>6. Vos droits (RGPD)</h2>
+                <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+                <ul>
+                    <li><strong>Droit d'accès :</strong> Obtenir une copie de vos données</li>
+                    <li><strong>Droit de rectification :</strong> Corriger vos données inexactes</li>
+                    <li><strong>Droit à l'effacement :</strong> Demander la suppression de vos données</li>
+                    <li><strong>Droit à la portabilité :</strong> Recevoir vos données dans un format structuré</li>
+                    <li><strong>Droit d'opposition :</strong> Vous opposer au traitement de vos données</li>
+                    <li><strong>Droit à la limitation :</strong> Limiter le traitement de vos données</li>
+                </ul>
+                <p>Pour exercer ces droits, contactez-nous à : <a href="mailto:privacy@getaireply.eu">privacy@getaireply.eu</a></p>
+                <p>Nous répondrons dans un délai maximum de 30 jours.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>7. Cookies</h2>
+                <p>Nous utilisons uniquement des cookies strictement nécessaires :</p>
+                <table>
+                    <tr>
+                        <th>Cookie</th>
+                        <th>Finalité</th>
+                        <th>Durée</th>
+                    </tr>
+                    <tr>
+                        <td>session</td>
+                        <td>Maintien de la connexion</td>
+                        <td>Session</td>
+                    </tr>
+                    <tr>
+                        <td>auth_token</td>
+                        <td>Authentification</td>
+                        <td>7 jours</td>
+                    </tr>
+                </table>
+                <p>Nous n'utilisons pas de cookies publicitaires ou de tracking tiers.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>8. Modifications de cette politique</h2>
+                <p>Nous pouvons mettre à jour cette politique de confidentialité. En cas de modification substantielle, nous vous en informerons par email ou via une notification sur le site.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>9. Contact</h2>
+                <p>Pour toute question concernant cette politique ou vos données personnelles :</p>
+                <div class="info-box">
+                    <p><strong>Email :</strong> <a href="mailto:privacy@getaireply.eu">privacy@getaireply.eu</a></p>
+                    <p><strong>Délégué à la Protection des Données :</strong> privacy@getaireply.eu</p>
+                </div>
+                <p>Vous avez également le droit d'introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés) : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="confidentialite.html">Confidentialité</a>
+            <a href="cgu.html">CGU</a>
+        </div>
+        <p>© 2025 GetAIReply. Tous droits réservés. Fait avec ❤️ en Europe 🇪🇺</p>
+    </footer>
+</body>
+</html>

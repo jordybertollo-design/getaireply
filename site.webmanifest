@@ -1,0 +1,26 @@
+{
+  "name": "GetAIReply - L'IA qui répond à vos avis",
+  "short_name": "GetAIReply",
+  "description": "Générez des réponses professionnelles à vos avis clients Google, TripAdvisor, Booking en 1 clic avec l'IA européenne.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "fr",
+  "dir": "ltr"
+}

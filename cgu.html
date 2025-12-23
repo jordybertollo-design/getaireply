@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Conditions Générales d'Utilisation — GetAIReply</title>
+    <meta name="description" content="CGU de GetAIReply. Conditions d'utilisation du service de génération de réponses aux avis clients par IA. Tarifs, responsabilités, résiliation.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://getaireply.eu/cgu.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="CGU — GetAIReply">
+    <meta property="og:description" content="Conditions Générales d'Utilisation de GetAIReply.">
+    <meta property="og:url" content="https://getaireply.eu/cgu.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a25;
+            --accent-primary: #6366f1;
+            --accent-secondary: #8b5cf6;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 20px 0;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .logo-tld {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .logo-tld {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .logo-icon-placeholder {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            background: var(--gradient-primary);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(99, 102, 241, 0.4);
+        }
+
+        /* Content */
+        .legal-content {
+            padding: 140px 0 80px;
+        }
+
+        .legal-header {
+            margin-bottom: 50px;
+        }
+
+        .legal-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .legal-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+        }
+
+        .legal-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legal-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 20px 0 10px;
+            color: var(--text-primary);
+        }
+
+        .legal-section p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .legal-section ul {
+            color: var(--text-secondary);
+            margin-left: 24px;
+            margin-bottom: 12px;
+        }
+
+        .legal-section li {
+            margin-bottom: 8px;
+        }
+
+        .legal-section a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        .legal-section a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+
+        .info-box p {
+            margin-bottom: 8px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+
+        .highlight-box h4 {
+            color: var(--accent-primary);
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+
+        .warning-box h4 {
+            color: #ef4444;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 16px;
+        }
+
+        footer a:hover {
+            color: var(--accent-primary);
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 640px) {
+            .legal-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content {
+                padding: 120px 0 60px;
+            }
+
+            nav .btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                GetAIReply
+            </a>
+            <a href="index.html" class="btn">Retour à l'accueil</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="legal-content">
+        <div class="container">
+            <div class="legal-header">
+                <h1>Conditions Générales d'Utilisation</h1>
+                <p>Dernière mise à jour : Décembre 2024</p>
+            </div>
+
+            <div class="highlight-box">
+                <h4>📋 Résumé</h4>
+                <p>En utilisant GetAIReply, vous acceptez ces conditions. Le service génère des suggestions de réponses à vos avis clients. Vous restez responsable du contenu que vous publiez.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>1. Objet</h2>
+                <p>Les présentes Conditions Générales d'Utilisation (ci-après « CGU ») ont pour objet de définir les modalités et conditions d'utilisation du service GetAIReply (ci-après « le Service »), accessible via le site getaireply.eu et l'extension Chrome associée.</p>
+                <p>En accédant ou en utilisant le Service, vous acceptez d'être lié par ces CGU. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le Service.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>2. Description du Service</h2>
+                <p>GetAIReply est un service en ligne qui utilise l'intelligence artificielle pour générer des suggestions de réponses aux avis clients publiés sur différentes plateformes (Google, TripAdvisor, Booking, Facebook, etc.).</p>
+                
+                <h3>2.1 Fonctionnalités principales</h3>
+                <ul>
+                    <li>Génération de réponses personnalisées par IA</li>
+                    <li>Personnalisation du ton et du style des réponses</li>
+                    <li>Support multilingue</li>
+                    <li>Extension Chrome pour répondre directement sur les plateformes</li>
+                    <li>Dashboard de gestion et historique</li>
+                </ul>
+
+                <h3>2.2 Offres disponibles</h3>
+                <ul>
+                    <li><strong>Gratuit :</strong> 5 générations par mois, 1 profil business</li>
+                    <li><strong>Pro (29€/mois) :</strong> Générations illimitées, profils multiples, extension Chrome, support prioritaire</li>
+                </ul>
+            </div>
+
+            <div class="legal-section">
+                <h2>3. Inscription et compte</h2>
+                
+                <h3>3.1 Création de compte</h3>
+                <p>Pour utiliser le Service, vous devez créer un compte en fournissant une adresse email valide. L'authentification se fait via un lien magique (magic link) envoyé par email.</p>
+
+                <h3>3.2 Responsabilité du compte</h3>
+                <p>Vous êtes responsable de la confidentialité de votre compte et de toutes les activités effectuées sous celui-ci. Vous vous engagez à nous notifier immédiatement toute utilisation non autorisée.</p>
+
+                <h3>3.3 Exactitude des informations</h3>
+                <p>Vous vous engagez à fournir des informations exactes et à jour lors de la création de votre compte et de la configuration de vos profils business.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>4. Utilisation du Service</h2>
+
+                <h3>4.1 Utilisation autorisée</h3>
+                <p>Le Service est destiné à un usage professionnel pour aider les entreprises à répondre à leurs avis clients. Vous pouvez utiliser les réponses générées pour :</p>
+                <ul>
+                    <li>Répondre à des avis authentiques sur des plateformes légitimes</li>
+                    <li>Améliorer votre relation client</li>
+                    <li>Gagner du temps dans la gestion de votre e-réputation</li>
+                </ul>
+
+                <div class="warning-box">
+                    <h4>⚠️ Utilisations interdites</h4>
+                    <p>Il est strictement interdit d'utiliser le Service pour :</p>
+                    <ul>
+                        <li>Générer de faux avis ou des réponses trompeuses</li>
+                        <li>Harceler ou diffamer des personnes</li>
+                        <li>Publier du contenu illégal, haineux ou discriminatoire</li>
+                        <li>Contourner les règles des plateformes d'avis</li>
+                        <li>Toute activité frauduleuse ou illégale</li>
+                    </ul>
+                </div>
+
+                <h3>4.2 Responsabilité du contenu</h3>
+                <p><strong>Important :</strong> Les réponses générées par l'IA sont des suggestions. Vous restez seul responsable du contenu que vous publiez. Nous vous recommandons de toujours relire et adapter les réponses avant publication.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>5. Propriété intellectuelle</h2>
+
+                <h3>5.1 Propriété du Service</h3>
+                <p>Le Service, son code, son design, ses algorithmes et sa documentation sont la propriété exclusive de GetAIReply. Toute reproduction ou utilisation non autorisée est interdite.</p>
+
+                <h3>5.2 Contenu généré</h3>
+                <p>Les réponses générées par le Service vous sont concédées sous licence non-exclusive. Vous êtes libre de les utiliser, modifier et publier pour vos besoins professionnels.</p>
+
+                <h3>5.3 Vos données</h3>
+                <p>Vous conservez tous les droits sur les données que vous fournissez (informations d'établissement, avis soumis). Ces données ne sont utilisées que pour fournir le Service.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>6. Tarification et paiement</h2>
+
+                <h3>6.1 Offre gratuite</h3>
+                <p>L'offre gratuite est limitée à 5 générations par mois. Aucune carte bancaire n'est requise.</p>
+
+                <h3>6.2 Offre Pro</h3>
+                <p>L'abonnement Pro est facturé mensuellement à 29€ HT. Le paiement est effectué par carte bancaire via Stripe.</p>
+
+                <h3>6.3 Renouvellement</h3>
+                <p>L'abonnement est renouvelé automatiquement chaque mois. Vous pouvez annuler à tout moment depuis votre espace client.</p>
+
+                <h3>6.4 Remboursement</h3>
+                <p>Conformément à l'article L221-28 du Code de la consommation, le droit de rétractation ne s'applique pas aux services pleinement exécutés avant la fin du délai de rétractation. Toutefois, nous offrons un remboursement dans les 14 jours suivant le premier paiement si vous n'êtes pas satisfait.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>7. Disponibilité du Service</h2>
+                <p>Nous nous efforçons d'assurer une disponibilité maximale du Service. Cependant, nous ne garantissons pas une disponibilité ininterrompue. Le Service peut être temporairement indisponible pour maintenance ou mise à jour.</p>
+                <p>Nous ne saurions être tenus responsables des dommages résultant d'une indisponibilité du Service.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>8. Limitation de responsabilité</h2>
+
+                <h3>8.1 Nature des suggestions</h3>
+                <p>Les réponses générées par l'IA sont des suggestions automatiques basées sur des modèles de langage. Elles peuvent contenir des erreurs ou des inexactitudes. Vous devez toujours vérifier le contenu avant publication.</p>
+
+                <h3>8.2 Exclusion de garantie</h3>
+                <p>Le Service est fourni « tel quel », sans garantie d'aucune sorte. Nous ne garantissons pas que les réponses générées seront adaptées à toutes les situations ou qu'elles produiront les résultats escomptés.</p>
+
+                <h3>8.3 Limite de responsabilité</h3>
+                <p>En aucun cas, GetAIReply ne pourra être tenu responsable des dommages indirects, consécutifs ou spéciaux résultant de l'utilisation du Service. Notre responsabilité totale est limitée au montant des sommes versées par vous au cours des 12 derniers mois.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>9. Résiliation</h2>
+
+                <h3>9.1 Par l'utilisateur</h3>
+                <p>Vous pouvez résilier votre compte à tout moment depuis votre espace client ou en nous contactant. La résiliation prend effet à la fin de la période d'abonnement en cours.</p>
+
+                <h3>9.2 Par GetAIReply</h3>
+                <p>Nous nous réservons le droit de suspendre ou résilier votre compte en cas de violation des présentes CGU, sans préavis ni indemnité.</p>
+
+                <h3>9.3 Effets de la résiliation</h3>
+                <p>À la résiliation, votre accès au Service sera désactivé. Vos données seront supprimées conformément à notre politique de confidentialité.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>10. Modifications des CGU</h2>
+                <p>Nous pouvons modifier ces CGU à tout moment. Les modifications seront notifiées par email ou via le Service. L'utilisation continue du Service après notification vaut acceptation des nouvelles conditions.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>11. Droit applicable et juridiction</h2>
+                <p>Les présentes CGU sont régies par le droit français. Tout litige relatif à l'interprétation ou l'exécution des présentes sera soumis aux tribunaux compétents de Paris.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>12. Contact</h2>
+                <p>Pour toute question concernant ces CGU :</p>
+                <div class="info-box">
+                    <p><strong>Email :</strong> <a href="mailto:legal@getaireply.eu">legal@getaireply.eu</a></p>
+                    <p><strong>Support :</strong> <a href="mailto:support@getaireply.eu">support@getaireply.eu</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="confidentialite.html">Confidentialité</a>
+            <a href="cgu.html">CGU</a>
+        </div>
+        <p>© 2025 GetAIReply. Tous droits réservés. Fait avec ❤️ en Europe 🇪🇺</p>
+    </footer>
+</body>
+</html>
