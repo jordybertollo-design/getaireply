@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2DS2QTT3RK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2DS2QTT3RK');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qui sommes-nous ? | GetAiReply - IA Européenne pour répondre aux avis</title>
+    <meta name="description" content="Découvrez 777 INDUSTRIES, l'entreprise française derrière GetAiReply et Godia.ai. Solutions IA innovantes pour les professionnels.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b0;
+            --text-muted: #6b6b7b;
+            --accent-primary: #6366f1;
+            --accent-secondary: #06b6d4;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --gradient-primary: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+            --accent-glow: rgba(99, 102, 241, 0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background */
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 20px 0;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .logo-tld {
+            color: var(--accent-primary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: white;
+            box-shadow: 0 4px 20px var(--accent-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px var(--accent-glow);
+        }
+
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-primary);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 160px 0 80px;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 100px;
+            font-size: 0.875rem;
+            color: var(--accent-primary);
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+
+        .gradient-text {
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        /* Company Section */
+        .company-section {
+            padding: 80px 0;
+        }
+
+        .company-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .company-content h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .company-content p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .company-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+        }
+
+        .company-logo {
+            font-size: 3rem;
+            margin-bottom: 24px;
+        }
+
+        .company-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .company-info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .company-info-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--bg-secondary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .company-info-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .company-info-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .company-info-value {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Founder Section */
+        .founder-section {
+            padding: 80px 0;
+            background: var(--bg-secondary);
+        }
+
+        .founder-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .founder-avatar {
+            width: 300px;
+            height: 300px;
+            background: var(--gradient-primary);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .founder-avatar::before {
+            content: '';
+            position: absolute;
+            inset: 3px;
+            background: var(--bg-card);
+            border-radius: 21px;
+        }
+
+        .founder-avatar span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .founder-content h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .founder-title {
+            color: var(--accent-primary);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .founder-content p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .founder-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-link {
+            width: 44px;
+            height: 44px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 1.25rem;
+            transition: all 0.3s;
+        }
+
+        .social-link:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            transform: translateY(-3px);
+        }
+
+        /* Products Section */
+        .products-section {
+            padding: 80px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-label {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 100px;
+            font-size: 0.875rem;
+            color: var(--accent-primary);
+            margin-bottom: 16px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .section-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .product-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            border-color: var(--accent-primary);
+            transform: translateY(-5px);
+        }
+
+        .product-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+
+        .product-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .product-card p {
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .product-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: gap 0.3s;
+        }
+
+        .product-link:hover {
+            gap: 12px;
+        }
+
+        /* Values Section */
+        .values-section {
+            padding: 80px 0;
+            background: var(--bg-secondary);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .value-card {
+            text-align: center;
+            padding: 40px 24px;
+        }
+
+        .value-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            margin: 0 auto 24px;
+        }
+
+        .value-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .value-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Trust Section */
+        .trust-section {
+            padding: 80px 0;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .trust-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .trust-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .trust-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent-primary);
+            margin-bottom: 8px;
+        }
+
+        .trust-label {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+        }
+
+        .cta-box {
+            background: var(--gradient-primary);
+            border-radius: 32px;
+            padding: 80px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .cta-box h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .cta-box p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        .cta-box .btn {
+            background: white;
+            color: var(--accent-primary);
+            font-size: 1.1rem;
+            padding: 16px 32px;
+            position: relative;
+        }
+
+        .cta-box .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand {
+            max-width: 300px;
+        }
+
+        .footer-brand .logo {
+            margin-bottom: 16px;
+        }
+
+        .footer-tagline {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .footer-links-grid {
+            display: flex;
+            gap: 80px;
+        }
+
+        .footer-col h5 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: var(--text-muted);
+        }
+
+        .footer-col a {
+            display: block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: color 0.3s;
+        }
+
+        .footer-col a:hover {
+            color: var(--text-primary);
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Navigation */
+        .mobile-nav {
+            display: none;
+        }
+
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 44px;
+            height: 44px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: var(--text-primary);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 998;
+        }
+
+        .mobile-menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 85%;
+            max-width: 320px;
+            height: 100%;
+            background: var(--bg-primary);
+            border-left: 1px solid var(--border-color);
+            z-index: 999;
+            transition: right 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .mobile-menu-close {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        .mobile-menu-links {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .mobile-menu-links a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-menu-links a:hover {
+            background: var(--bg-card);
+            color: var(--text-primary);
+        }
+
+        .mobile-menu-cta {
+            padding: 24px;
+            margin-top: auto;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .mobile-menu-cta .btn {
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-nav {
+                display: flex;
+            }
+
+            .company-grid,
+            .founder-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .founder-avatar {
+                width: 200px;
+                height: 200px;
+                font-size: 5rem;
+                margin: 0 auto;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .footer-links-grid {
+                flex-wrap: wrap;
+                gap: 40px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .company-card,
+            .product-card {
+                padding: 24px;
+            }
+
+            .founder-avatar {
+                width: 150px;
+                height: 150px;
+                font-size: 4rem;
+            }
+
+            .founder-content h2 {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            .founder-title {
+                text-align: center;
+            }
+
+            .founder-social {
+                justify-content: center;
+            }
+
+            .section-header h2 {
+                font-size: 1.75rem;
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .trust-item {
+                padding: 20px 16px;
+            }
+
+            .trust-value {
+                font-size: 1.5rem;
+            }
+
+            .cta-box {
+                padding: 50px 24px;
+            }
+
+            .cta-box h2 {
+                font-size: 1.75rem;
+            }
+
+            .cta-box p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                GetAiReply
+            </a>
+            <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html">🏠 Accueil</a>
+            <a href="index.html#features">⚡ Fonctionnalités</a>
+            <a href="index.html#pricing">💰 Tarifs</a>
+            <a href="about.html">👥 Qui sommes-nous</a>
+            <a href="index.html#contact">📧 Contact</a>
+        </div>
+        <div class="mobile-menu-cta">
+            <a href="https://app.getaireply.eu" class="btn btn-primary">Commencer gratuitement</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                GetAiReply<span class="logo-tld">.eu</span>
+            </a>
+            <div class="mobile-nav">
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#features">Fonctionnalités</a>
+                <a href="index.html#pricing">Tarifs</a>
+                <a href="about.html" style="color: var(--accent-primary);">Qui sommes-nous</a>
+                <a href="https://app.getaireply.eu" class="btn btn-primary">Commencer gratuitement</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <span>🇫🇷</span>
+                Entreprise française
+            </div>
+            <h1>L'innovation IA<br><span class="gradient-text">made in France</span></h1>
+            <p>Découvrez 777 INDUSTRIES, l'entreprise française qui développe des solutions d'intelligence artificielle pour les professionnels. Créateurs de GetAiReply et Godia.ai.</p>
+        </div>
+    </section>
+
+    <!-- Company Section -->
+    <section class="company-section">
+        <div class="container">
+            <div class="company-grid">
+                <div class="company-content">
+                    <h2>777 INDUSTRIES</h2>
+                    <p>777 INDUSTRIES est une entreprise française spécialisée dans le développement de solutions d'intelligence artificielle innovantes pour les professionnels.</p>
+                    <p>Fondée en 2024, notre mission est de démocratiser l'accès à l'IA en créant des outils simples, puissants et 100% conformes au RGPD européen.</p>
+                    <p>Nous croyons que l'IA doit être au service des entreprises de toutes tailles, leur permettant de gagner du temps et d'améliorer leur relation client.</p>
+                </div>
+                <div class="company-card">
+                    <div class="company-logo">🏢</div>
+                    <div class="company-info">
+                        <div class="company-info-item">
+                            <div class="company-info-icon">📋</div>
+                            <div class="company-info-text">
+                                <span class="company-info-label">Raison sociale</span>
+                                <span class="company-info-value">777 INDUSTRIES</span>
+                            </div>
+                        </div>
+                        <div class="company-info-item">
+                            <div class="company-info-icon">🏛️</div>
+                            <div class="company-info-text">
+                                <span class="company-info-label">Forme juridique</span>
+                                <span class="company-info-value">SAS (Société par actions simplifiée)</span>
+                            </div>
+                        </div>
+                        <div class="company-info-item">
+                            <div class="company-info-icon">📍</div>
+                            <div class="company-info-text">
+                                <span class="company-info-label">Siège social</span>
+                                <span class="company-info-value">10 rue de Penthièvre, 75008 Paris</span>
+                            </div>
+                        </div>
+                        <div class="company-info-item">
+                            <div class="company-info-icon">🔢</div>
+                            <div class="company-info-text">
+                                <span class="company-info-label">RCS Paris</span>
+                                <span class="company-info-value">984 934 893</span>
+                            </div>
+                        </div>
+                        <div class="company-info-item">
+                            <div class="company-info-icon">📅</div>
+                            <div class="company-info-text">
+                                <span class="company-info-label">Date de création</span>
+                                <span class="company-info-value">Février 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder-section">
+        <div class="container">
+            <div class="founder-grid">
+                <div class="founder-avatar">
+                    <span>👨‍💻</span>
+                </div>
+                <div class="founder-content">
+                    <h2>Jordy Bertollo</h2>
+                    <div class="founder-title">Fondateur & Président</div>
+                    <p>Entrepreneur passionné par les nouvelles technologies et l'intelligence artificielle, Jordy a fondé 777 INDUSTRIES avec une vision claire : créer des outils IA accessibles qui transforment le quotidien des professionnels.</p>
+                    <p>Fort d'une expertise technique solide et d'une compréhension profonde des besoins des entreprises, il dirige le développement de solutions innovantes comme GetAiReply et Godia.ai.</p>
+                    <div class="founder-social">
+                        <a href="https://linkedin.com/in/jordy-bertollo-9b8894312/" class="social-link" target="_blank" rel="noopener">💼</a>
+                        <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener">🐦</a>
+                        <a href="mailto:contact@getaireply.eu" class="social-link">📧</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nos produits</span>
+                <h2>Des solutions IA innovantes</h2>
+                <p>Découvrez nos produits conçus pour simplifier votre quotidien professionnel.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">⚡</div>
+                    <h3>GetAiReply</h3>
+                    <p>Générez des réponses professionnelles à vos avis clients en 1 clic. IA européenne, 100% RGPD, compatible avec Google, TripAdvisor, Booking, et plus de 8 plateformes.</p>
+                    <a href="index.html" class="product-link">
+                        Découvrir GetAiReply
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🤖</div>
+                    <h3>Godia.ai</h3>
+                    <p>Plateforme d'agents IA conversationnels pour automatiser votre service client. Des agents IA disponibles 24/7 pour répondre à vos clients sur tous vos canaux.</p>
+                    <a href="https://godia.ai" class="product-link" target="_blank" rel="noopener">
+                        Découvrir Godia.ai
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nos valeurs</span>
+                <h2>Ce qui nous guide</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🇪🇺</div>
+                    <h3>100% Européen</h3>
+                    <p>Nos solutions sont développées et hébergées en Europe, garantissant une conformité totale au RGPD et la protection de vos données.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🚀</div>
+                    <h3>Innovation</h3>
+                    <p>Nous repoussons constamment les limites de l'IA pour créer des outils toujours plus performants et intuitifs pour nos utilisateurs.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Proximité</h3>
+                    <p>Support réactif en français, écoute des besoins clients et amélioration continue de nos produits selon vos retours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">En chiffres</span>
+                <h2>Ils nous font confiance</h2>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">🏢</div>
+                    <div class="trust-value">500+</div>
+                    <div class="trust-label">Entreprises utilisatrices</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">💬</div>
+                    <div class="trust-value">50K+</div>
+                    <div class="trust-label">Réponses générées</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">⭐</div>
+                    <div class="trust-value">4.9/5</div>
+                    <div class="trust-label">Satisfaction client</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🌍</div>
+                    <div class="trust-value">200+</div>
+                    <div class="trust-label">Langues supportées</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Prêt à essayer ?</h2>
+                <p>Rejoignez les centaines d'entreprises qui utilisent déjà nos solutions IA.</p>
+                <a href="https://app.getaireply.eu" class="btn">
+                    Commencer gratuitement
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">⚡</div>
+                        GetAiReply<span class="logo-tld">.eu</span>
+                    </a>
+                    <p class="footer-tagline">L'IA européenne qui répond à vos avis clients.</p>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h5>Produit</h5>
+                        <a href="index.html#features">Fonctionnalités</a>
+                        <a href="index.html#extension">Extension Chrome</a>
+                        <a href="index.html#pricing">Tarifs</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Entreprise</h5>
+                        <a href="about.html">Qui sommes-nous</a>
+                        <a href="index.html#contact">Contact</a>
+                        <a href="index.html#faq">FAQ</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Légal</h5>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="confidentialite.html">Confidentialité</a>
+                        <a href="cgu.html">CGU</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 GetAiReply - 777 INDUSTRIES. Tous droits réservés.</p>
+                <p>Fait avec ❤️ en Europe 🇪🇺</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu
+        var hamburger = document.getElementById('hamburger');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+        var mobileMenuClose = document.getElementById('mobile-menu-close');
+
+        function openMobileMenu() {
+            mobileMenu.classList.add('active');
+            mobileMenuOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('active');
+            mobileMenuOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        if (hamburger) {
+            hamburger.addEventListener('click', openMobileMenu);
+        }
+
+        if (mobileMenuClose) {
+            mobileMenuClose.addEventListener('click', closeMobileMenu);
+        }
+
+        if (mobileMenuOverlay) {
+            mobileMenuOverlay.addEventListener('click', closeMobileMenu);
+        }
+
+        document.querySelectorAll('.mobile-menu-links a').forEach(function(link) {
+            link.addEventListener('click', closeMobileMenu);
+        });
+    </script>
+</body>
+</html>
