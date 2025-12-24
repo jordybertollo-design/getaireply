@@ -121,18 +121,121 @@
         .nav-links {
             display: flex;
             align-items: center;
-            gap: 32px;
+            gap: 24px;
         }
 
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
             font-weight: 500;
+            font-size: 0.95rem;
+            white-space: nowrap;
             transition: color 0.3s;
         }
 
         .nav-links a:hover {
             color: var(--text-primary);
+        }
+
+        /* Language Selector */
+        .lang-selector {
+            position: relative;
+        }
+
+        .lang-current {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .lang-current:hover {
+            border-color: var(--accent-primary);
+            color: var(--text-primary);
+        }
+
+        .lang-flag {
+            font-size: 1.1rem;
+        }
+
+        .lang-code {
+            font-weight: 600;
+        }
+
+        .lang-arrow {
+            opacity: 0.7;
+            transition: transform 0.2s;
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 8px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 8px;
+            min-width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.2s ease;
+            z-index: 100;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .lang-selector:hover .lang-dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .lang-option:hover {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .lang-option.active {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--accent-primary);
+        }
+
+        /* Medium screens - reduce nav spacing */
+        @media (max-width: 1280px) and (min-width: 1025px) {
+            .nav-links {
+                gap: 16px;
+            }
+            
+            .nav-links a {
+                font-size: 0.9rem;
+            }
+            
+            .btn-primary {
+                padding: 10px 18px;
+                font-size: 0.9rem;
+            }
         }
 
         .btn {
@@ -769,6 +872,62 @@
             color: var(--text-primary);
         }
 
+        .mobile-menu-links a .menu-icon {
+            font-size: 1.2rem;
+        }
+
+        .mobile-menu-divider {
+            height: 1px;
+            background: var(--border-color);
+            margin: 16px 0;
+        }
+
+        .mobile-menu-lang {
+            padding: 0 24px;
+            margin-bottom: 16px;
+        }
+
+        .mobile-menu-lang-title {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            padding-left: 4px;
+        }
+
+        .mobile-menu-lang-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .mobile-menu-lang-options a {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-menu-lang-options a:hover {
+            border-color: var(--accent-primary);
+        }
+
+        .mobile-menu-lang-options a.active {
+            background: rgba(99, 102, 241, 0.1);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
         .mobile-menu-cta {
             padding: 24px;
             margin-top: auto;
@@ -920,11 +1079,21 @@
             <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
         </div>
         <div class="mobile-menu-links">
-            <a href="index.html">🏠 Accueil</a>
-            <a href="index.html#features">⚡ Fonctionnalités</a>
-            <a href="index.html#pricing">💰 Tarifs</a>
-            <a href="about.html">👥 Qui sommes-nous</a>
-            <a href="index.html#contact">📧 Contact</a>
+            <a href="index.html#features"><span class="menu-icon">⚡</span> Fonctionnalités</a>
+            <a href="index.html#app-stats"><span class="menu-icon">📱</span> L'application</a>
+            <a href="index.html#extension"><span class="menu-icon">🧩</span> Extension Chrome</a>
+            <a href="index.html#pricing"><span class="menu-icon">💰</span> Tarifs</a>
+            <a href="about.html"><span class="menu-icon">👥</span> Qui sommes-nous</a>
+            <a href="index.html#faq"><span class="menu-icon">❓</span> FAQ</a>
+            <a href="index.html#contact"><span class="menu-icon">📧</span> Contact</a>
+        </div>
+        <div class="mobile-menu-divider"></div>
+        <div class="mobile-menu-lang">
+            <div class="mobile-menu-lang-title">Langue</div>
+            <div class="mobile-menu-lang-options">
+                <a href="about.html" class="active">🇫🇷 Français</a>
+                <a href="en/about.html">🇬🇧 English</a>
+            </div>
         </div>
         <div class="mobile-menu-cta">
             <a href="https://app.getaireply.eu" class="btn btn-primary">Commencer gratuitement</a>
@@ -946,10 +1115,28 @@
                 </button>
             </div>
             <div class="nav-links">
-                <a href="index.html">Accueil</a>
                 <a href="index.html#features">Fonctionnalités</a>
+                <a href="index.html#app-stats">L'application</a>
+                <a href="index.html#extension">Extension Chrome</a>
                 <a href="index.html#pricing">Tarifs</a>
                 <a href="about.html" style="color: var(--accent-primary);">Qui sommes-nous</a>
+                <div class="lang-selector">
+                    <button class="lang-current" aria-label="Changer de langue">
+                        <span class="lang-flag">🇫🇷</span>
+                        <span class="lang-code">FR</span>
+                        <svg class="lang-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="about.html" class="lang-option active">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span>Français</span>
+                        </a>
+                        <a href="en/about.html" class="lang-option">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span>English</span>
+                        </a>
+                    </div>
+                </div>
                 <a href="https://app.getaireply.eu" class="btn btn-primary">Commencer gratuitement</a>
             </div>
         </div>
@@ -1035,7 +1222,6 @@
                     <p>Fort d'une expertise technique solide et d'une compréhension profonde des besoins des entreprises, il dirige le développement de solutions innovantes comme GetAiReply et Godia.ai.</p>
                     <div class="founder-social">
                         <a href="https://linkedin.com/in/jordy-bertollo-9b8894312/" class="social-link" target="_blank" rel="noopener">💼</a>
-                        <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener">🐦</a>
                         <a href="mailto:contact@getaireply.eu" class="social-link">📧</a>
                     </div>
                 </div>
