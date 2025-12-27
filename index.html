@@ -192,7 +192,7 @@
           "name": "Combien coûte GetAiReply ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "GetAiReply propose une offre gratuite avec 5 générations par mois. L'offre Pro à 29€/mois inclut des générations illimitées, l'extension Chrome, et le support prioritaire."
+            "text": "GetAiReply propose une offre gratuite avec 5 générations par mois. L'offre Pro à 49€ HT/mois inclut 100 générations, un dashboard de statistiques IA avancées avec score de réputation, alertes intelligentes, analyse des émotions, et des recommandations personnalisées."
           }
         },
         {
@@ -4004,6 +4004,88 @@
         </div>
     </section>
 
+    <!-- NEW: Dashboard Stats IA Section -->
+    <section class="ai-dashboard-section" id="stats-ia" style="background: linear-gradient(180deg, #0a0a0a 0%, #111827 50%, #0a0a0a 100%); padding: 100px 0;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" style="background: linear-gradient(135deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">🆕 Nouveau</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Dashboard Stats IA Avancées</h2>
+                <p class="section-description" style="max-width: 700px; margin: 0 auto; color: #9ca3af;">
+                    Analysez votre réputation en profondeur avec notre nouveau tableau de bord intelligent. Comprenez vos clients comme jamais auparavant.
+                </p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 60px;">
+                <!-- Card 1: Score de réputation -->
+                <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1)); border: 1px solid rgba(99, 102, 241, 0.2); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">🏆</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Score de Réputation</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        Votre note globale sur 100, calculée par l'IA selon vos avis. Avec labels (Excellent, Très bien...) et évolution dans le temps.
+                    </p>
+                </div>
+                
+                <!-- Card 2: Alertes intelligentes -->
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">🔔</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Alertes Intelligentes</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        Notifications automatiques : hausse d'avis négatifs, points faibles détectés, tendances positives à célébrer.
+                    </p>
+                </div>
+                
+                <!-- Card 3: Points forts/faibles -->
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">💪</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Points Forts & Faibles</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        L'IA extrait automatiquement ce que vos clients adorent et ce qui doit être amélioré.
+                    </p>
+                </div>
+                
+                <!-- Card 4: Analyse des émotions -->
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">😊</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Analyse des Émotions</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        Au-delà du positif/négatif : Enchantés, Satisfaits, Neutres, Déçus, Frustrés. Comprenez vraiment vos clients.
+                    </p>
+                </div>
+                
+                <!-- Card 5: Actions prioritaires -->
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">🎯</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Actions Prioritaires</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        Top 5 des actions à mener avec impact estimé en points. Sachez exactement quoi améliorer.
+                    </p>
+                </div>
+                
+                <!-- Card 6: Graphiques interactifs -->
+                <div style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.1)); border: 1px solid rgba(34, 197, 94, 0.2); border-radius: 20px; padding: 32px; text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 16px;">📊</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: #fff;">Graphiques Interactifs</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; line-height: 1.6;">
+                        Donut charts, barres d'évolution, sparklines... Visualisez vos données en un coup d'œil.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- CTA -->
+            <div style="text-align: center; margin-top: 60px;">
+                <p style="color: #9ca3af; margin-bottom: 20px; font-size: 1.1rem;">
+                    ✨ <strong style="color: #a855f7;">Inclus dans le forfait Pro</strong> — Analysez votre réputation comme jamais
+                </p>
+                <a href="https://app.getaireply.eu" class="btn btn-primary" style="padding: 16px 32px; font-size: 1.1rem;">
+                    Découvrir le Dashboard Stats
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Pricing -->
     <section class="pricing" id="pricing">
         <div class="container">
@@ -4025,6 +4107,7 @@
                     <ul class="pricing-features">
                         <li>5 générations par mois</li>
                         <li>1 établissement</li>
+                        <li>1 plateforme connectée</li>
                         <li>3 réponses par génération</li>
                         <li>Analyse de sentiment</li>
                         <li>Toutes les langues</li>
@@ -4036,17 +4119,19 @@
                     <div class="pricing-name">Pro</div>
                     <div class="pricing-description">Pour les professionnels</div>
                     <div class="pricing-price">
-                        <span class="pricing-amount">29€</span>
-                        <span class="pricing-period">/ mois</span>
+                        <span class="pricing-amount">49€</span>
+                        <span class="pricing-period">HT / mois</span>
                     </div>
                     <p class="pricing-per-location">par établissement</p>
                     <ul class="pricing-features">
                         <li><strong>100 générations par mois</strong></li>
-                        <li>Multi-établissements</li>
-                        <li>Analyse de sentiment IA</li>
-                        <li>Tous les tons de réponse</li>
-                        <li>Historique complet</li>
-                        <li>Statistiques avancées</li>
+                        <li><strong>Plateformes illimitées</strong></li>
+                        <li><strong>📊 Dashboard Stats IA avancées</strong></li>
+                        <li>Score de réputation global</li>
+                        <li>Alertes intelligentes</li>
+                        <li>Points forts / Points faibles IA</li>
+                        <li>Analyse des émotions</li>
+                        <li>Recommandations personnalisées</li>
                         <li>Extension Chrome</li>
                         <li>Support prioritaire</li>
                     </ul>
@@ -4091,7 +4176,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            GetAiReply fonctionne avec Google Business, TripAdvisor, Booking.com, Airbnb, Facebook, Yelp, Trustpilot, TheFork et bien d'autres. Notre extension Chrome détecte automatiquement la plateforme et s'adapte.
+                            GetAiReply fonctionne avec Google Business, TripAdvisor, Booking.com, Airbnb, Facebook, Yelp, Trustpilot, TheFork, Hotels.com, Expedia, Agoda, OpenTable, VRBO et bien d'autres. Notre extension Chrome détecte automatiquement la plateforme et s'adapte. Avec le forfait Pro, connectez toutes vos plateformes sans limite !
                         </div>
                     </div>
                 </div>
