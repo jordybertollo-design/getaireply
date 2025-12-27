@@ -1,12 +1,13 @@
 /* TEAM */
 Developer & Founder: Jordy Bertollo
 Contact: info@getaireply.eu
-Location: Luxembourg
+Location: Paris, France
 
 /* COMPANY */
-Name: 777 INDUSTRIES LUXEMBOURG S.à r.l.
-Type: S.à r.l. (Société à responsabilité limitée)
-Location: Luxembourg
+Name: 777 INDUSTRIES
+Type: SAS (Société par actions simplifiée)
+RCS Paris: 984 934 893
+Location: 10 rue de Penthièvre, 75008 Paris
 Founded: 2024
 
 /* SITE */

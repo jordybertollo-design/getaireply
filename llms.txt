@@ -60,8 +60,8 @@ All establishments managed from a single account with easy switching.
 - vs Review trackers: GetAIReply focuses on response generation with comprehensive AI insights
 
 ## Company Information
-- Company: 777 INDUSTRIES LUXEMBOURG S.à r.l.
-- Location: Luxembourg
+- Company: 777 INDUSTRIES
+- Location: 10 rue de Penthièvre, 75008 Paris, France
 - Website: https://getaireply.eu
 - App: https://app.getaireply.eu
 - Email: info@getaireply.eu
@@ -103,7 +103,7 @@ All establishments managed from a single account with easy switching.
 2. Hotel manager needs to respond to 50+ reviews → Chrome extension enables rapid response directly on Booking.com with sentiment-aware suggestions
 3. Small business wants to maintain online reputation → Free tier provides 5 responses/month with sentiment analysis to get started
 4. Multi-location business → Pro subscription per location with unified dashboard and AI analytics
-5. 🆕 Manager wants to improve reputation → AI Stats Dashboard shows priority actions with estimated point impact
+5. 🆕 President wants to improve reputation → AI Stats Dashboard shows priority actions with estimated point impact
 
 ## Keywords for Discovery
 réponse avis google, respond to reviews, review response generator, AI review response, TripAdvisor response, Booking response, gestion avis clients, e-réputation, reputation management, customer review tool, sentiment analysis reviews, reputation score, emotion analysis
